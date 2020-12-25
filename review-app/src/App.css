@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f8;
+}
+.heading {
+  text-align: center;
+  font-family: "Piazzolla", serif;
+  margin-top: 5%;
+  font-size: xx-large;
+}
+.container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}

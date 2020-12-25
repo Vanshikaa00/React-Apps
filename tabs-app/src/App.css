@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+.loading {
+  justify-content: center;
+  align-content: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  padding-top: 85px;
+  font-size: xx-large;
+  padding-bottom: 8px;
+}
+
+.line1 {
+  background-color: #2caeba;
+  height: 4px;
+  width: 8%;
+}
+.container-1 {
+  display: grid;
+  gap: 20px;
+  padding: 50px;
+  grid-template-columns: 0.5fr 1fr;
+}
+.item {
+  padding: 20px;
+}
+.item2 {
+  text-align: left;
+}
+ul {
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Lora", serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  list-style-type: none;
+}
+li {
+  font-size: 20px;
+  padding: 17px 15px 17px 0;
+}
+li:hover {
+  border-left: 4px solid #2caeba;
+  color: #2caeba;
+}
+.title {
+  font-family: "Lora", serif;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 15px;
+  font-size: 28px;
+  color: #102a42;
+}
+.company {
+  background-color: #dae2ec;
+  border-radius: 3px;
+  padding: 15px;
+  border: none;
+  color: #617d98;
+  font-size: 16px;
+}
+.date {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 0;
+  font-size: 16px;
+  color: #617d98;
+}
+.desc {
+  display: flex;
+
+  font-size: 16px;
+  color: #324d67;
+}
+.c1 {
+  color: #2caeba;
+  padding-right: 10px;
+}
+
+.btn {
+  background-color: #2caeba;
+  color: white;
+  border: none;
+  padding: 10px 45px 10px 45px;
+  border-radius: 3px;
+
+  margin-top: 60px;
+}
+@media only screen and (max-width: 700px) {
+  .container-1 {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  ul {
+    display: flex;
+  }
+  .item {
+    padding: 10px;
+  }
+  .line1 {
+    width: 35%;
+  }
+  li {
+    font-size: 12px;
+    margin: 8px;
+  }
+  .heading {
+    padding-top: 70px;
+  }
+  li:hover {
+    padding-left: 3px;
+    border-left: 0;
+    border-bottom: 4px solid #2caeba;
+    color: #2caeba;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .company {
+    font-size: 14px;
+  }
+  .date {
+    font-size: 14px;
+  }
+  .desc {
+    font-size: 14px;
+  }
+}

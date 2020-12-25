@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+body {
+  background-color: #f28ab2;
+}
+.btn {
+  box-shadow: 3px 5px 12px #888888;
+  background-color: #f28ab2;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.heading {
+  margin-top: 25px;
+  color: #f28ab2;
+  text-shadow: 2px 2px #b8557d;
+  letter-spacing: 2px;
+  font-family: "Staatliches", cursive;
+  padding: 10px;
+  text-align: center;
+  font-size: xx-large;
+}
+.container {
+  padding: 15px;
+  align-items: center;
+  display: flex;
+}
+.c4 {
+  color: #888888;
+}
+.c4:hover {
+  cursor: pointer;
+}
+.card {
+  box-shadow: 8px 12px 18px #888888;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
+.centerbtn {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  padding: 0px;
+}
+.content {
+  margin: auto;
+}
+.c1 {
+  font-family: "Raleway", sans-serif;
+}
+.c2 {
+  font-style: oblique;
+  font-family: "Dosis", sans-serif;
+}
+.c3 {
+  margin: 20px;
+  padding: 8px;
+}
+.imgsize {
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 85%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .heading {
+    font-size: x-large;
+  }
+  .c1 {
+    padding-left: 8px;
+    font-size: medium;
+  }
+  .c2 {
+    padding-left: 8px;
+  }
+}

@@ -1,0 +1,87 @@
+.cont {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  padding: 30px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 20px 20px 20px gray;
+}
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.namestyle {
+  font-size: xx-large;
+  margin: 3px;
+}
+.desigstyle {
+  font-size: large;
+  margin: 3px;
+  color: #8bcbf9;
+}
+.contentstyle {
+  margin: 9px;
+  color: #617db3;
+  padding: 6px;
+  font-size: medium;
+}
+.nav {
+  text-align: center;
+  margin: 6px;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+}
+.material-icons {
+  color: #49a6e9;
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+  margin: 8px;
+  padding: 17px;
+  border-radius: 4px;
+  color: #49a6e9;
+  background-color: #ebf7ff;
+  border: none;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .namestyle {
+    font-size: x-large;
+  }
+  .desigstyle {
+    font-size: medium;
+  }
+  .contentstyle {
+    font-size: small;
+  }
+  .btn {
+    padding: 8px;
+  }
+  .img-container {
+    width: 65px;
+    height: 65px;
+  }
+  .namestyle {
+    font-size: large;
+  }
+  .cont {
+    width: 75%;
+  }
+}

@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  background-color: #f1f5f8;
+}
+.heading {
+  font-size: 30px;
+  margin: 15px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: -2px 0px 25px 0px rgba(173, 173, 173, 1);
+  -moz-box-shadow: -2px 0px 25px 0px rgba(173, 173, 173, 1);
+  box-shadow: -2px 0px 25px 0px rgba(173, 173, 173, 1);
+}
+.message {
+  background: #d4edda;
+  padding: 4px 30px;
+  border-radius: 5px;
+}
+.entry {
+  display: flex;
+  flex-direction: row;
+}
+input[type="text"] {
+  background: #ebeef1;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+}
+.btn {
+  background: #a5d5f8;
+  padding: 12px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.content-cont {
+  margin-top: 12px;
+
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 80px;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.content-cont:hover {
+  background-color: #ebeef1;
+  border-radius: 5px;
+}
+.content {
+  grid-column: 1 / span 1;
+}
+.btn-cont {
+  grid-column: 2 / span 1;
+  gap: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit {
+  color: green;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
+.delete {
+  color: red;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
+.edit:hover {
+  color: rgb(101, 221, 101);
+}
+.delete:hover {
+  color: rgb(238, 116, 116);
+}
+.clearall {
+  letter-spacing: 3px;
+  color: red;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+  .heading {
+    font-size: 20px;
+    margin: 12px;
+  }
+  .card {
+    padding: 10px;
+    margin: auto;
+  }
+  input[type="text"] {
+    width: 160px;
+
+    padding: 5px;
+  }
+  .btn {
+    padding: 8px;
+  }
+  .content {
+    font-size: 15px;
+  }
+  .clearall {
+    letter-spacing: 2px;
+    color: red;
+    padding: 8px;
+    font-size: 13px;
+  }
+  .message {
+    padding: 3px 30px;
+    font-size: 12px;
+  }
+}
